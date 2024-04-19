@@ -1,0 +1,91 @@
+### Drupal ###
+# gitignore template for Drupal projects
+#
+# earlier versions of Drupal are tracked in `community/PHP/`
+# follows official upstream conventions:
+# https://www.drupal.org/docs/develop/using-composer
+
+# Ignore configuration files that may contain sensitive information
+/web/sites/*/*settings*.php
+/web/sites/*/*services*.yml
+
+# Ignore paths that may contain user-generated content
+/web/sites/*/files
+/web/sites/*/public
+/web/sites/*/private
+/web/sites/*/files-public
+/web/sites/*/files-private
+
+# Ignore paths that may contain temporary files
+/web/sites/*/translations
+/web/sites/*/tmp
+/web/sites/*/cache
+
+# Ignore drupal core (if not versioning drupal sources)
+/web/vendor
+/web/core
+/web/modules/
+/web/modules/README.txt
+/web/profiles/README.txt
+/web/sites/development.services.yml
+/web/sites/example.settings.local.php
+/web/sites/example.sites.php
+/web/sites/README.txt
+/web/.csslintrc
+/web/.editorconfig
+/web/.eslintignore
+/web/.eslintrc.json
+/web/.gitattributes
+/web/.htaccess
+/web/.ht.router.php
+/web/autoload.php
+/web/composer.json
+/web/composer.lock
+/web/example.gitignore
+/web/index.php
+/web/INSTALL.txt
+/web/LICENSE.txt
+/web/README.txt
+/web/robots.txt
+/web/update.php
+/web/web.config
+
+# Ignore vendor dependencies and scripts
+/vendor
+/composer.phar
+/composer
+/robo.phar
+/robo
+/drush.phar
+/drush
+/drupal.phar
+/drupal
+
+# Ignore configuration files that may contain sensitive information
+
+# Ignore paths that may contain user-generated content
+
+# Ignore paths that may contain temporary files
+
+# Ignore drupal core (if not versioning drupal sources)
+
+# Ignore vendor dependencies and scripts
+
+#archivos por validar
+composer.json
+composer.lock
+.editorconfig
+.gitattributes
+/web/themes/bootstrap5
+/web/themes/bootstrap5/dist
+/web/themes/README.txt
+/web/README.md
+/web/themes/custom/laboratoriogit2/config
+/web/themes/custom/laboratoriogit2/favicon.ico
+/web/themes/custom/laboratoriogit2/laboratoriogit2.breakpoints.yml
+/web/themes/custom/laboratoriogit2/laboratoriogit2.info.yml
+/web/themes/custom/laboratoriogit2/laboratoriogit2.libraries.yml
+/web/themes/custom/laboratoriogit2/laboratoriogit2.theme
+/web/themes/custom/laboratoriogit2/logo.svg
+/web/themes/custom/laboratoriogit2/README.md
+/web/themes/custom/laboratoriogit2/screenshot.png
